@@ -1,0 +1,57 @@
+.SecTwoParent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin-top: 4rem;
+  margin-bottom: 7rem;
+  background-color: rgb(19, 222, 222);
+}
+.SecTwoParent > div {
+  height: 629px;
+  margin: 0px;
+}
+
+.HexaGonalImage {
+  overflow: hidden;
+}
+.SecTwoLeft {
+  padding: 90px;
+  width: 43%;
+  background-color: rgb(19, 222, 222);
+}
+.SecTwoLeft > div {
+  height: 100%;
+}
+.SecTwoRight {
+  padding: 53px 110px;
+  width: 60%;
+  /* background-color: #090908; */
+  border-top-left-radius: 35%;
+}
+
+.SecTwoRight > * {
+  color: white;
+}
+.SecTwoRight > div {
+  margin-top: 30px;
+}
+.SecTwoRight p {
+  font-size: 22px;
+  font-weight: 600;
+}
+.SecTwoRight span {
+  margin-left: 30px;
+}
+.RRResult {
+  font-size: 45px;
+}
+.hammersec3 {
+  width: 30px;
+  margin-right: 4px;
+}
+.sec3para {
+  color: rgb(20, 2, 2);
+  margin-left: 35px;
+}

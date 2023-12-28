@@ -1,0 +1,165 @@
+/* Your existing CSS */
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.searchbar {
+    padding: 7px 10px;
+    margin-left: 2rem;
+    color: black;
+    font-size: 1.4rem;
+    /* border-bottom: 1px solid black; */
+    /* border: 1px solid black; */
+    /* background-color: black; */
+    /* color: white; */
+    border-radius: 2px;
+    outline: none;
+    font-weight: 300;
+    font-family: Anonymous Pro;
+    width: 400px;
+
+}
+
+.nav-container {
+    /* background: url('../assets/about_bg.jpg'); */
+    /* background:linear-gradient(black,yellow,black) ; */
+    background-color: rgb(19, 222, 222);
+    background-size: cover;
+    box-shadow: 2px 2px 30px black;
+    position: sticky;
+    z-index: 1000;
+
+
+    top: 0;
+}
+
+.navbar {
+    width: 100vw;
+    height: 60px;
+    overflow: hidden;
+    /* box-shadow: 2px 2px 40px grey; */
+    
+    background:linear-gradient(white,whitesmoke,rgb(223, 221, 221)) ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    border-radius: 3px;
+    margin: 0;
+}
+
+.navbar>button {
+    font-size: 1.4rem;
+
+    /* Set the button background to transparent */
+    border: none;
+    /* Remove button border if present */
+    cursor: pointer;
+    padding: 0 4px 0 4px;
+    border-radius: 0px;
+    color: black;
+    font-weight: 300;
+
+    /* Change cursor on hover for better UX */
+
+    /* Add a smooth transition for the background color change */
+}
+
+.navbar>button:hover {
+    background-color: rgba(227, 206, 44, 0.983);
+    color: black;
+    text-shadow: 5px 5px 10px white;
+    /* Change the background color on hover */
+    height: 100%;
+    border: none;
+    /* transform: scale(1.2); */
+    transition: all ease-in-out 100ms;
+}
+.navbar>button:active{
+    transform: scale(1.12);
+}
+
+.content {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5rem;
+
+}
+
+h1 {
+    font-size: 4rem;
+    letter-spacing: -2px;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    color: black;
+    font-family: Gilroy;
+
+}
+
+.footer {
+    background: url('../assets/all\ bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.Loaderrrrr {
+    z-index: 10;
+    height: 100vh !important;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-body {
+    /* background-color: black; */
+    /* background: url('../assets/bg7.jpg'); */
+    width: 100vw;
+    background-color: rgb(230, 230, 188);
+    padding-top: 2rem;
+    min-height: 89vh;
+}
+
+.card-body {
+
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 2px 2px 40px grey;
+}
+
+.radio-label {
+    color: white;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+.filter {
+    /* background:linear-gradient(rgb(192, 169, 23),black,rgb(192, 169, 23)) ; */
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 2rem;
+    width: 100%;
+    border-radius: 4px;
+
+}
+
+.currency-filter {
+    display: flex;
+    gap: 3rem;
+    margin-left: 2rem;
+}
+
+button:active {
+    scale: 1.3;
+
+}
